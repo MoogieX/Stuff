@@ -5,6 +5,7 @@ class player:
   def __init__ (self):
     self.name = ""
     self.backstory = ""
+    self.max_health = 500
     self.health = 500
   def intro (self):
     print (f"Lost one.. What is your name?")
@@ -60,6 +61,11 @@ class player:
     damage = random.randit (0, 9999999)
     print ("You strike the Amalgamation for {damage}!")
     return damage
+    
+    def regenerate(self):
+        print(f"\n You can't give up here... Not when this is facing you")
+        self.health = self.max_health
+        time.sleep(1)
     
 class boss:
   def __init__(self):
