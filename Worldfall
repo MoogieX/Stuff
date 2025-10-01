@@ -1,0 +1,64 @@
+import random
+import time
+
+class player:
+  def __init__ (self):
+    self.name = ""
+    self.backstory = ""
+  def intro (self):
+    print (f"Lost one.. What is your name?")
+    self.name = input("")
+    print (f"Ah... {self.name}, what a beautiful name you have...")
+    print (f"Where did you come from, dear {self.name}?")
+    self.backstory = input("")
+    print(f"Oh! {self.backstory}, I am yet to visit... Wait...")
+    print("You've heard me say this before, haven't you?")
+    print("...")
+    print(f"I suppose this is the end, {self.name}. Do you have anything to say before it all...?")
+    input("")
+    print ("------???------")
+    print ("You stood in the clearing before everything fractured...")
+    input("")
+    print("Astar...!")
+    print("You will pay for this!")
+    print("A familiar voice calls out from the Void...")
+    input("")
+    print("You are nothing but an observer to the timelines clashing")
+    print("After all, it is your fault.")
+    print("And yet to another world...")
+    input("")
+    print("The voice of the commander rings out...")
+    print ("Starwalker! There has been an issue with the ship! ")
+    print ("Starwalker? {self.name}? Anwser me!")
+    input("")
+    print("But it is worthless to try")
+    print("Your voice is nothing here")
+    input("")
+    print("Your friends... Allies, what did they mean to you?")
+    input("")
+    print("Not as though it would have mattered, but I am curious what they meant to you...")
+    print("After all, everything was pre-determined... Paths all marked out for you, yet you still played")
+    input("")
+    print("I know {self.name} isn't your name... Is it?")
+    input("")
+    print("...")
+    input("")
+    print("What did you get out of this, {self.name}?")
+    input("")
+    print("I see..")
+    print("It is almost time")
+    input("")
+    print ("For the final battle")
+    input("")
+    print("Between man and magic, Metal against flesh...")
+    input("")
+    print("You came here for your game, you will get it.")
+    input("")
+    
+    
+    
+
+    
+#stuff
+self = player()
+self.intro()
