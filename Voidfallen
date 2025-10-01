@@ -5,6 +5,7 @@ class player:
   def __init__ (self):
     self.name = ""
     self.backstory = ""
+    self.health = 500
   def intro (self):
     print (f"Lost one.. What is your name?")
     self.name = input("")
@@ -55,7 +56,19 @@ class player:
     print("You came here for your game, you will get it.")
     input("")
     
+  def attack (self):
+    damage = random.randit (0, 9999999)
+    print ("You strike the Amalgamation for {damage}!")
+    return damage
     
+class boss:
+  def __init__(self):
+    self.name = Amalgamation
+    self.health = 9999999
+    
+    def attack (self):
+      damage = random.randit(0, 500)
+      print ("You are stricken by {self.name} for {damage}!")
     
 
     
